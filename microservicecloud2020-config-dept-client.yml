@@ -15,7 +15,7 @@ mybatis:
 spring:
    profiles: dev
    application:
-    name: microservicecloud-config-dept-client
+    name: microservicecloud2020-config-dept-client
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver              # mysql驱动包
@@ -51,7 +51,7 @@ eureka:
 
 # http://192.168.2.100:8001/info优化显示
 info: 
-  app.name: web-microservicecloud-config-dept-config01
+  app.name: web-microservicecloud2020-config-dept-config01
   company.name: www.web.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$ 
@@ -68,7 +68,7 @@ mybatis:
 spring:
    profiles: test
    application:
-    name: microservicecloud-config-dept-client
+    name: microservicecloud2020-config-dept-client
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver              # mysql驱动包
@@ -104,7 +104,7 @@ eureka:
     
 # http://192.168.2.100:8001/info优化显示
 info: 
-  app.name: web-microservicecloud-config-dept-config02
+  app.name: web-microservicecloud20200-config-dept-config02
   company.name: www.web.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
