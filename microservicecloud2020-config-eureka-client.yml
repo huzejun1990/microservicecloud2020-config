@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: false # 当前的 eureka-server自已不注册进服务列表中
     fetch-registry: false   # 不通过eureka获取注册信息
     service-url: 
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址 查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://eureka:7001/eureka/ #设置与Eureka Server交互的地址 查询服务和注册服务都需要依赖这个地址
 ---
 server:
   port: 7001
@@ -27,4 +27,4 @@ eureka:
     register-with-eureka: false # 当前的 eureka-server自已不注册进服务列表中
     fetch-registry: false   # 不通过eureka获取注册信息
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址 查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://eureka:7001/eureka/ #设置与Eureka Server交互的地址 查询服务和注册服务都需要依赖这个地址
